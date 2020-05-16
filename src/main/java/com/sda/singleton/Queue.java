@@ -4,9 +4,18 @@ import java.util.LinkedList;
 import java.util.List;
 
 public class Queue {
+    private static Queue instance;
+
+    public static Queue instanceOf() {
+        if (instance == null) {
+            instance = new Queue();
+        }
+        return instance;
+    }
+
     private List<String> names;
 
-    public Queue() {
+    private Queue() {
         this.names = new LinkedList<>();
     }
 
