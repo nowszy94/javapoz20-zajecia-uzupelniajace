@@ -8,6 +8,7 @@ public class SingletonApplication {
         Queue queue3 = Queue.instanceOf();
         Queue queue = Queue.instanceOf();
 
+        QueueSingletonEnum instance = QueueSingletonEnum.INSTANCE;
         queue.push("Szymon");
         queue.push("Jan");
         queue.push("Damian");
