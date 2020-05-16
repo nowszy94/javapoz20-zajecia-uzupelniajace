@@ -3,8 +3,9 @@ package com.sda.singleton;
 public class CountService {
     private static CountService instance;
 
-    public static CountService instanceOf() {
+    public synchronized static CountService instanceOf() {
         if (instance == null) {
+            System.out.println("creating countService");
             instance = new CountService();
         }
         return instance;
