@@ -1,0 +1,3 @@
+Krzyzacy;Henryk Sienkiewicz;1234567;Lorem ipsum sit dolor;1678;10;23
+Quo Vadis;Henryk Sienkiewicz;86473856;Lorem ipsum sit dolor;1658;1;1
+Dziady IV;Adam Mickiewicz;7438967483;Lorem ipsum sit dolor;1858;5;20
