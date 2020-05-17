@@ -6,7 +6,9 @@ import java.util.Scanner;
 public class ChainApplication {
     public static void main(String[] args) {
         EmergencyCenter emergencyCenter = new EmergencyCenter(Arrays.asList(
-                new AmbulanceChainItem()
+                new PoliceChainItem(),
+                new AmbulanceChainItem(),
+                new FireFightersChainItem()
         ));
 
         System.out.println("Request service");
